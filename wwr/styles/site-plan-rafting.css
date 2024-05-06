@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --primary-color: #280f97;
+    --primary-color: #050115;
     --secondary-color: #a1d1d5;
     --accent1-color: #889234;
     --accent2-color: #7ac8e1;
@@ -15,7 +15,7 @@ body {
     --heading-font: 'Source Serif 4';
     --paragraph-font: 'Pt Serif';
 
-    --nav-background-color: #280f97;
+    --nav-background-color: #0744bf;
     --nav-link-color: #0744bf;
     --nav-hover-link-color: #889234;
     --nav-hover-background-color: #7ac8e1;
