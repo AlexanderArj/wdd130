@@ -90,18 +90,10 @@ footer {
     margin: 0 10px; /* Add margin between icons */
     width: 30px; /* Set the width of the icons */
     height: 30px; /* Set the height of the icons */
-    background-size: cover; /* Ensure the background images cover the entire area */
+    overflow: hidden; /* Hide overflow */
 }
 
-/* Set background images for each social media icon */
-.sociallinks a[href="https://facebook.com"] {
-    background-image: url('images/3225194_app_facebook_logo_media_popular_icon.png'); /* Replace 'path_to_facebook_icon.png' with the path to your Facebook icon image */
-}
-
-.sociallinks a[href="https://twitter.com"] {
-    background-image: url('images/5296516_tweet_twitter_twitter logo_icon.png'); /* Replace 'path_to_twitter_icon.png' with the path to your Twitter icon image */
-}
-
-.sociallinks a[href="https://instagram.com"] {
-    background-image: url('images/6929237_instagram_icon.png'); /* Replace 'path_to_instagram_icon.png' with the path to your Instagram icon image */
+.sociallinks img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Maintain aspect ratio */
 }
