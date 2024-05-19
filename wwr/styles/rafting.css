@@ -1,24 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&family=PT+Serif&display=swap');
 
 :root {
-    /* Color Scheme */
     --primary-color: #050115;
     --secondary-color: #a1d1d5;
     --accent1-color: #889234;
     --accent2-color: #7ac8e1;
-
-    /* Fonts */
-    --heading-font: 'Source Serif 4', serif; 
+    --heading-font: 'Source Serif 4', serif;
     --paragraph-font: 'PT Serif', serif;
-
-    /* Navigation */
     --nav-background-color: #0744bf;
     --nav-link-color: #faf4f5;
     --nav-hover-link-color: #889234;
     --nav-hover-background-color: #7ac8e1;
 }
 
-/* Styling Headings and Paragraphs */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -29,71 +23,69 @@ p {
     color: var(--secondary-color);
 }
 
-/* Font colors */
 .hero h1, .hero p {
     color: var(--accent1-color);
 }
 
-/* Remove underlines from social media links */
 .sociallinks a {
     text-decoration: none;
 }
 
-/* Limit width of the page */
 body {
-    max-width: 1200px; /* Adjust as needed */
-    margin: 0 auto; /* Center the content */
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Positioning elements within the hero section */
 .hero {
-    position: relative; /* Ensure relative positioning for absolute children */
+    position: relative;
 }
 
 .hero img {
-    display: block; /* Make the image a block element */
-    width: 100%; /* Ensure the image fills the container */
-    height: auto; /* Maintain aspect ratio */
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .hero h1 {
     position: absolute;
-    top: 50%; /* Position at the vertical center */
-    left: 50%; /* Position at the horizontal center */
-    transform: translate(-50%, -50%); /* Center the element */
-    z-index: 1; /* Ensure it's above the image */
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: var(--accent1-color);
+    font-size: 2.5em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px; /* Adjust as needed */
-    left: 50%; /* Position at the horizontal center */
-    transform: translateX(-50%); /* Center the element */
-    z-index: 1; /* Ensure it's above the image */
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
-    padding: 20px; /* Add padding for readability */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
 }
 
 .hero article img {
-    float: right; /* Float the image to the right of the paragraph */
+    float: right;
 }
 
-/* Modify the footer */
 footer {
-    text-align: center; /* Center align the content */
-    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+    padding: 20px;
 }
 
-/* Style the social media icons */
 .sociallinks a {
-    display: inline-block; /* Make the links block elements */
-    margin: 0 10px; /* Add margin between icons */
-    width: 30px; /* Set the width of the icons */
-    height: 30px; /* Set the height of the icons */
-    overflow: hidden; /* Hide overflow */
+    display: inline-block;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
 }
 
 .sociallinks img {
-    width: 100%; /* Ensure the image fills the container */
-    height: 100%; /* Maintain aspect ratio */
+    width: 100%;
+    height: 100%;
 }
