@@ -23,7 +23,7 @@ nav a {
 
 h1 {
   color: steelblue;
-  border-bottom: 2px solid steelblue; /* bottom border */
+  border-bottom: 2px solid steelblue; /* Bottom border */
   padding-bottom: 0.5rem; 
 }
 
@@ -36,17 +36,11 @@ main img {
   float: right;
   margin-left: 1rem; /* Added margin to the left */
   margin-bottom: 1rem; /* Added margin to the bottom */
-  margin-top: 1rem;
-
-}
-
-main {
-  margin-top: 1rem; /* Added margin to the top of the main element */
 }
 
 p {
   padding: 0;
-  margin-top: 1rem;
+  margin-top: 1rem; /* Added margin to the top of paragraphs */
 }
 
 aside {
