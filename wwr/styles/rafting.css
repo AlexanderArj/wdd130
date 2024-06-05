@@ -37,7 +37,7 @@ header {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: black solid;
+    color: white;
 }
 
 p {
